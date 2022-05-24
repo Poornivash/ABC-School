@@ -1,1 +1,61 @@
+//Registration forms
+<html>
+    <head>
+        
+        <title>
+            Registration
+            </title>
+            <h1 style="text-align: center; color:rgb(35, 35, 196); border-radius: 10px; margin-top: 10px;min-width: 10px; ">
+                Registration From
+            </h1>
+            <style>
+               *
+{
+    padding: 0;
+    margin: 12;
+    box-sizing: border-box; 
+    background-color: rgb(167, 243, 248);
+    text-align: center;
+}
+
+ 
+
+            </style>
+    </head>
+
+            <body>
+               
+                <form action="webpage2.html" target="_blank" method="Get"></form>
+                 <label>First Name</label>
+                 <input type="text"name=fname placeholder="First Name"><br></br>
+                 <label>Last Name</label>
+                 <input type="text"name=lname placeholder="last Name"><br></br>
+                 <label>Gender</label>
+                 <input type="radio" name="Gender">Male
+                 <input type="radio" name="Gender">Female<br></br>
+                 <label>DOB</label>
+                 <input type="date" name="dname"><br></br>
+                 <label>Application Form For</label><select>
+                 <option>None</option>   
+                 <option>Primary&Nursary</option>
+                 <option>SSLC</option>
+                 <option>Hr Sec</option>
+                </select><br></br>
+                <label>Phone No</label>
+                <input type="number" pno><br></br>
+                <label>Address</label>
+                <textarea></textarea><br></br>
+                <lable>Father Name</lable>
+                <input type="text"name=fname placeholder="Father Name"><br></br>
+                <label>Mother Name</label>
+                <input type="text"name=fname placeholder="Mother Name"><br></br>
+                <label>Conform Password</label>
+                <input type="password" name="pass" required><br></br>
+                <label>Email</label>
+                <input type="email" name="mail" required><br></br>
+                 <input type="submit">
+                </form>
+            </body>
+</html>
+
 
